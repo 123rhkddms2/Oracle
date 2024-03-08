@@ -8,7 +8,6 @@ import java.util.List;
 
 @Service
 public class User2Service {
-
     private final User2Mapper mapper;
 
     public User2Service(User2Mapper mapper) {

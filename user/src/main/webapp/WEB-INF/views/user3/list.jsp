@@ -2,13 +2,13 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
-    <title>user1::list</title>
+    <title>user3::list</title>
 </head>
 <body>
-<h3>user1 목록</h3>
+<h3>user3 목록</h3>
 
 <a href="/">메인</a>
-<a href="/user1/register">등록</a>
+<a href="/user3/register">등록</a>
 
 <table border="1">
     <tr>
@@ -25,8 +25,8 @@
         <td>${user.hp}</td>
         <td>${user.age}</td>
         <td>
-            <a href="/user1/modify?id=${user.id}">수정</a>
-            <a href="/user1/delete?id=${user.id}">삭제</a>
+            <a href="/user3/modify?id=${user.id}">수정</a>
+            <a href="/user3/delete?id=${user.id}">삭제</a>
         </td>
     </tr>
     </c:forEach>

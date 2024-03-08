@@ -40,7 +40,7 @@ public class User2DTO {
 
     @Override
     public String toString() {
-        return "User1DTO{" +
+        return "User2DTO{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", hp='" + hp + '\'' +

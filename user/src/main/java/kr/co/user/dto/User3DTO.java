@@ -40,7 +40,7 @@ public class User3DTO {
 
     @Override
     public String toString() {
-        return "User1DTO{" +
+        return "User3DTO{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", hp='" + hp + '\'' +
