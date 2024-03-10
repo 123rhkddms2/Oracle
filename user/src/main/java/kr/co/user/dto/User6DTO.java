@@ -1,17 +1,17 @@
 package kr.co.user.dto;
 
 public class User6DTO {
-    private int seq;
+    private String seq;
     private String name;
     private String gender;
     private int age;
     private String addr;
 
-    public int getSeq() {
+    public String getSeq() {
         return seq;
     }
 
-    public void setSeq(int seq) {
+    public void setSeq(String seq) {
         this.seq = seq;
     }
 

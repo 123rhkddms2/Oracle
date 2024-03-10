@@ -5,8 +5,24 @@
 <mapper namespace="kr.co.user.mapper.User6Mapper">
 
     <insert id="insertUser6">
-        INSERT INTO user6 values (seq_user6.nextval, #{name},#{gender}, #{age}, #{addr})
+        INSERT INTO user6 values (seq_user6.nextval, #{name}, #{gender}, #{age}, #{addr})
     </insert>
+
+    <select id="selectUser6s" resultType="kr.co.user.dto.User6DTO">
+        SELECT * FROM user6
+    </select>
+
+    <select id="selectUser6" resultType="kr.co.user.dto.User6DTO">
+        SELECT * FROM user6 where seq=#{seq}
+    </select>
+
+    <update id="updateUser6">
+        UPDATE user6 SET name=#{name}, gender=#{gender}, age=#{age}, addr=#{addr} where seq=#{seq}
+    </update>
+
+    <delete id="deleteUser6">
+        DELETE FROM user6 where seq=#{seq}
+    </delete>
 
 
 

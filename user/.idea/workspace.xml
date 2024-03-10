@@ -11,21 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9a86e5-ef1a-453c-9a83-9817f62f2447" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/controller/User2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/controller/User2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User2DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User2DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User3DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User3DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/service/User2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/service/User2Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/user2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/user2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user3/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user3/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user3/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user3/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user3/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user3/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user4/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user4/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user4/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user4/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user4/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user4/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user5/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user5/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user5/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user5/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user5/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user5/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/config/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/controller/User6Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/controller/User6Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User6DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User6DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/user6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/user6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/modify.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/register.jsp" afterDir="false" />
     </list>
@@ -218,6 +207,8 @@
       <workItem from="1709885192674" duration="983000" />
       <workItem from="1709886182083" duration="1539000" />
       <workItem from="1709887838613" duration="27000" />
+      <workItem from="1710072826948" duration="14000" />
+      <workItem from="1710073061058" duration="4532000" />
     </task>
     <servers />
   </component>

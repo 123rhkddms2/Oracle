@@ -14,7 +14,13 @@ public class JdbcConfig {
     public DataSource dataSource(){
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+        
+        // 학원에서 하면 url끝에 orcl사용
+        // 집에서 하면 oracle 버전 다르기 때문에 xe사용
+        
         dataSource.setUrl("jdbc:oracle:thin:@//127.0.0.1:1521/orcl");
+        //dataSource.setUrl("jdbc:oracle:thin:@//127.0.0.1:1521/xe");
+
         dataSource.setUsername("rhkddms");
         dataSource.setPassword("1234");
 

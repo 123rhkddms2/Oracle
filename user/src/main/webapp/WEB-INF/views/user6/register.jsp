@@ -9,7 +9,7 @@
 <a href="/user6/list">목록</a>
 <form action="/user6/register" method="post">
     <table border="1">
-        <tr>
+        <tr style="display: none;">
             <td>순번</td>
             <td><input type="number" name="seq"></td>
         </tr>

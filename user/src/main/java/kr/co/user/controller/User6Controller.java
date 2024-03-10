@@ -5,6 +5,8 @@ import kr.co.user.service.User6Service;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -24,5 +26,39 @@ public class User6Controller {
         return "/user6/list";
     }
 
+    @GetMapping("user6/register")
+    public String register(){
+
+        return "/user6/register";
+    }
+
+    @PostMapping("/user6/register")
+    public String register(User6DTO user6DTO){
+        service.insertUser6(user6DTO);
+
+        return "redirect:/user6/list";
+    }
+
+    @GetMapping("/user6/modify")
+    public String modify(@RequestParam("seq") String seq, Model model){
+        User6DTO user6DTO = service.selectUser6(seq);
+        model.addAttribute(user6DTO);
+
+        return "/user6/modify";
+    }
+
+    @PostMapping("/user6/modify")
+    public String modify(User6DTO user6DTO){
+        service.updateUser6(user6DTO);
+
+        return "redirect:/user6/list";
+    }
+
+    @GetMapping("/user6/delete")
+    public String delete(@RequestParam("seq") String seq){
+        service.deleteUser6(seq);
+
+        return "redirect:/user6/list";
+    }
 
 }

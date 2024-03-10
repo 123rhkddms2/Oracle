@@ -11,7 +11,7 @@
     <table border="1">
         <tr>
             <td>순번</td>
-            <td><input type="number" name="seq" readonly value="${user6DTO.seq}"></td>
+            <td><input type="number" name="seq"  readonly value="${user6DTO.seq}"></td>
         </tr>
         <tr>
             <td>이름</td>
