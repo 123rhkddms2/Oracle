@@ -11,12 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9a86e5-ef1a-453c-9a83-9817f62f2447" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/config/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/controller/User6Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/controller/User6Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User6DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/user/dto/User6DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/user6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/user6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user6/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,6 +203,8 @@
       <workItem from="1709887838613" duration="27000" />
       <workItem from="1710072826948" duration="14000" />
       <workItem from="1710073061058" duration="4532000" />
+      <workItem from="1710113016555" duration="1674000" />
+      <workItem from="1710115325178" duration="7000" />
     </task>
     <servers />
   </component>
